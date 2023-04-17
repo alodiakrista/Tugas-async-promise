@@ -162,7 +162,7 @@ button {
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  background-color: rgb(94, 154, 226);
+  background-color: palevioletred;
   color: #fff;
   font-family: Arial, sans-serif;
   font-size: 14px;
@@ -172,7 +172,7 @@ button {
 }
   
 button:hover {
-  background-color: burlywood;
+  background-color: pink;
 }
   
 /* div data */
