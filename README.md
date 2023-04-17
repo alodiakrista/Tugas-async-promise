@@ -3,7 +3,8 @@
 
 
 ##  **index.html**
-```<!DOCTYPE html>
+```
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -22,8 +23,10 @@
 
         <label for="gender">Gender</label>
         <select name="gender" id="gender">
-            <option value="female">Female</option>
+            <option value="">Select Gender</option>
             <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
         </select>
 
         <label for="address">Address</label>
@@ -35,7 +38,7 @@
             <option value="cookie">Cookie Storage</option>
         </select>
 
-        <button type="button" onclick="saveData()">Save Data</button>
+        <button type="button" onclick="saveData()">Save</button>
         <button type="button" onclick="displayData()">Display Data</button>
         <button type="button" onclick="resetData()">Reset Data</button>
     </form>
